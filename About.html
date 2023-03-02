@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Style.css">
+    <title>ABOUT.</title>
+</head>
+
+<body>
+
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./Images/My Eduford.PNG" width="200px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact Us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+
+    </section>
+
+
+
+
+
+    <!-- about us content -->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, vel, cum quibusdam neque mollitia
+                    inventore doloribus illum aut fugiat beatae autem molestias eos sint esse in, saepe quisquam
+                    accusamus placeat! Reprehenderit eum, ut voluptatum dicta debitis numquam! Et voluptatibus aliquid
+                    soluta, facere dolorem suscipit omnis placeat animi id porro reprehenderit sit inventore! Corporis
+                    </p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./Images/teachers.JPG" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ea magnam ipsam laboriosam laborum <br>
+                temporibus unde quisquam blanditiis rerum eligendi, culpa eum officia illo doloremque quia et! Totam,
+                !
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o">by Quadri Osein Tech</i></p>
+    
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+
+            let navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+
+        </script>
+
+
+
+
+</body>
+
+</html>
